@@ -3,7 +3,7 @@ A modern, responsive hospital website developed using HTML, CSS, and JavaScript,
 
 # 🏥 Sanjeevani Hospital – Responsive Healthcare Website
 
-A modern and fully responsive healthcare website developed during my **45-day Full Stack Development Internship at Alram Business Solution**. This project provides an engaging online platform for hospitals to showcase healthcare services, medical departments, doctors, facilities, and patient information through a clean, intuitive, and responsive user interface.
+A modern and fully responsive healthcare website developed during my **45-day Full Stack Development Internship**. This project provides an engaging online platform for hospitals to showcase healthcare services, medical departments, doctors, facilities, and patient information through a clean, intuitive, and responsive user interface.
 
 Designed with a focus on accessibility, usability, and performance, the website delivers a seamless browsing experience across desktops, tablets, and mobile devices.
 
