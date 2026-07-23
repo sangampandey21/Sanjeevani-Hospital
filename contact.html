@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us — Sanjeevani Hospital</title>
+<meta name="description" content="Sanjeevani Hospital se sampark karein — appointment book karein, emergency number paayein, ya humein message bhejein.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="pulse-bar"><div class="pulse-bar__fill"></div></div>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand">
+      <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+        <path d="M2 22 H12 L16 12 L22 30 L26 18 L30 22 H38" />
+      </svg>
+      Sanjeevani Hospital
+    </a>
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="index.html#gallery">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav__right">
+      <button class="share-btn" aria-label="Share this website">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/><line x1="15.4" y1="6.5" x2="8.6" y2="10.5"/></svg>
+        <span>Share</span>
+      </button>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<!-- ===================== PAGE HERO ===================== -->
+<section class="page-hero">
+  <div class="container reveal is-visible">
+    <span class="eyebrow">Sampark Karein</span>
+    <h1>Hum sunne ke liye taiyar hain.</h1>
+    <p class="page-hero__sub">Appointment, sawaal, ya emergency — jo bhi zarurat ho, hum ek call ya message door hain.</p>
+  </div>
+</section>
+
+<!-- ===================== CONTACT INFO CARDS ===================== -->
+<section class="contact-info">
+  <div class="container contact-info__grid reveal-stagger">
+    <div class="info-card reveal" style="--i:0">
+      <div class="info-card__icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13 1 .37 1.99.7 2.93a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.15-1.27a2 2 0 0 1 2.11-.45c.94.33 1.93.57 2.93.7A2 2 0 0 1 22 16.92z"/></svg>
+      </div>
+      <h3>Call Karein</h3>
+      <p><a href="tel:+911234567890">+91 12345 67890</a></p>
+      <span class="info-card__note">24×7 Emergency Helpline</span>
+    </div>
+    <div class="info-card reveal" style="--i:1">
+      <div class="info-card__icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16v16H4z" style="display:none"/><path d="M22 6 12 13 2 6"/><path d="M2 6h20v12H2z"/></svg>
+      </div>
+      <h3>Email Karein</h3>
+      <p><a href="mailto:info@sanjeevanihospital.in">info@sanjeevanihospital.in</a></p>
+      <span class="info-card__note">24 ghante ke andar reply</span>
+    </div>
+    <div class="info-card reveal" style="--i:2">
+      <div class="info-card__icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      </div>
+      <h3>Visit Karein</h3>
+      <p>Bailey Road, Patna,<br>Bihar — 800014</p>
+      <span class="info-card__note">Reception: 24×7 open</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FORM + MAP ===================== -->
+<section class="contact-main">
+  <div class="container contact-main__grid">
+    <div class="contact-form-wrap reveal">
+      <span class="eyebrow">Message Bhejein</span>
+      <h2>Appointment ya sawaal ke liye form bharein.</h2>
+      <form id="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Pura Naam</label>
+            <input type="text" id="name" name="name" placeholder="Aapka naam" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+91 00000 00000" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="aap@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="department">Department</label>
+          <select id="department" name="department">
+            <option>Cardiology</option>
+            <option>Pediatrics</option>
+            <option>Orthopedics</option>
+            <option>Maternity Care</option>
+            <option>General Surgery</option>
+            <option>Emergency</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Aapka Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Apni zarurat yahan likhein..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Message Bhejein</button>
+      </form>
+    </div>
+
+    <div class="contact-map reveal">
+      <div class="contact-map__frame">
+        <iframe
+          title="Sanjeevani Hospital location map"
+          src="https://www.google.com/maps?q=Bailey+Road,Patna,Bihar&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+      <div class="contact-map__hours">
+        <h3>OPD Timings</h3>
+        <ul>
+          <li><span>Mon – Sat</span><span>9:00 AM – 8:00 PM</span></li>
+          <li><span>Sunday</span><span>10:00 AM – 2:00 PM</span></li>
+          <li><span>Emergency</span><span>24 × 7 Open</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand">Sanjeevani Hospital</div>
+        <p>Modern medical care, ghar jaisi garmajoshi ke saath. Aapki sehat, hamara pehla lakshya.</p>
+        <div class="footer__emergency">
+          <span>🚑</span>
+          <span><strong>24×7 Emergency:</strong> +91 12345 67890</span>
+        </div>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="index.html#gallery">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="index.html#services">Cardiology</a></li>
+          <li><a href="index.html#services">Pediatrics</a></li>
+          <li><a href="index.html#services">Orthopedics</a></li>
+          <li><a href="index.html#services">Maternity Care</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>Bailey Road, Patna, Bihar</li>
+          <li>info@sanjeevanihospital.in</li>
+          <li>+91 12345 67890</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; 2026 Sanjeevani Hospital. All rights reserved.</span>
+      <span>Banaya gaya hai dekhbhal ke saath.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
