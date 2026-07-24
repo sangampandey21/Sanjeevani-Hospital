@@ -1,8 +1,7 @@
 # Sanjeevani-Hospital
 A modern and fully responsive healthcare website developed during my **45-day Full Stack Development Internship**. This project provides an engaging online platform for hospitals to showcase healthcare services, medical departments, doctors, facilities, and patient information through a clean, intuitive, and responsive user interface.
-It is a modern, responsive hospital website developed using HTML, CSS, and JavaScript, featuring healthcare services, doctor information, patient testimonials, contact section, and an intuitive user interface designed to deliver a seamless user experience across all devices.
 
-A modern and fully responsive healthcare website developed during my **45-day Full Stack Development Internship**. This project provides an engaging online platform for hospitals to showcase healthcare services, medical departments, doctors, facilities, and patient information through a clean, intuitive, and responsive user interface.
+It is a modern, responsive hospital website developed using HTML, CSS, and JavaScript, featuring healthcare services, doctor information, patient testimonials, contact section, and an intuitive user interface designed to deliver a seamless user experience across all devices.
 
 Designed with a focus on accessibility, usability, and performance, the website delivers a seamless browsing experience across desktops, tablets, and mobile devices.
 
